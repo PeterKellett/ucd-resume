@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*-----------------------------------Header--------*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.heading .name {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 46px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.heading .title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+/*------------------------------------Headings--------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+#footer-header {
+    padding: 20px;
+}
+
+/*------------------------------------Main page Section--------------------*/
+section {
+    height: 200px;
+   
+}
+
+
+/*---------------------------------General-------------------------*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+/*--------------------------------Containers------------*/
+
+.menucontainer {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.tab-home {
+    background-color: red;
+    color: #ffffff;
+}
+
+.tab-resume {
+    background-color: green;
+    color: #ffffff;
+}
+
+.tab-contact {
+    background-color: purple;
+    color: #ffffff;
+}
+
+.tab-cv {
+    background-color: blue;
+    color: #ffffff;
+}
+
+
+/*-------------------------------Colors----------*/
+
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+/*---------------Logo----------*/
+
+.logo {
+    background: url("../images/profile_pic.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    padding: 0;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    /*browser prefix*/
+    -webkit-transition: all .5s ease-in-out;
+    /*vendor prefix*/
+    -o-transition: all .5s ease-in-out;
+}
+
+/*-------------------------------------Links----------------------*/
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menucontainer a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+}
+
+.menucontainer a span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+/*-------------------------------FX Hover------------------------*/
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 120px;
+    padding: 0;
+}
+
+
+/*-------------------------------Footer-----------------------------*/
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #e84610;
+}
